@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+     <title>Assignment 3 - zayad portfolio</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+  </head>
+  <body> 
+    <nav>
+      <div class="nav-links">
+      <a href="#about">About</a> 
+      <a href="#projects">Projects</a> 
+      <a href="#contact">Contact</a> 
+      </div>
+      <div id="greeting-container" class="greeting-box">
+      <h2 id="greeting-message">Welcome!</h2>
+      <input type="text" id="name-input" placeholder="Enter your name">
+      <button id="save-name">Save</button>
+    </div>
+      <button id="theme-toggle" class="theme-toggle" aria-pressed="false" title="Toggle theme">🌑</button>
+    </nav>
+    
+    <div id="greeting-mobile" class="greeting-mobile">
+      <h2 id="greeting-message-mobile">Welcome!</h2>
+      <input type="text" id="name-input-mobile" placeholder="Enter your name">
+      <button id="save-name-mobile">Save</button>
+    </div>
+
+    
+    <section id="about"> 
+      <h2>About Me</h2> 
+      <p>Hi, my name is Zeyad Alghamdi. I am a Computer Science student interested in web development.</p>
+      <p>“Always learning, always improving.”</p>  
+    </section>
+    
+    <section id="projects"> 
+      <h2>Projects</h2><br>
+      <div class="project-controls">
+        <input id="project-search" type="search" placeholder="Search for projects…" aria-label="Search projects">
+      </div>
+      <div id="projects-empty" class="empty" hidden>No projects found.</div>
+      <div class="project">
+        <div class="project-left">
+        <h3>Movie Tickets Reservation App</h3> 
+        <img src="assets/images/project1-Movies.png" alt="Project One - Movies"><br>
+        </div>
+        <div class="project-right">
+        <br><br><p>This project allows users to log in either as an admin or a regular user. 
+          The user can navigate through the available movies, select a suitable one, and receive feedback indicating whether the booking was successful, if tickets are sold out, or if the movie has already been booked.</p>
+        <p>Admin users can add new movies with full details such as title, time, description, number of available tickets, and additional features. 
+          They can also delete existing movies or update movie information whenever needed.</p>
+
+          <button class="toggle-details">▼ More details</button>
+          <div class="details">
+            <ul>
+              <li>User feedback on booking states</li>
+              <li>Admin can manage movie list easily</li>
+              <li>Responsive layout for desktop and mobile</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-left">
+        <h3>Courses Registration App</h3>
+        <img src="assets/images/project2-Courses.png" alt="Project Two - Courses"><br>
+        </div>
+        <div class="project-right"> 
+        <br><br><p>Allow student enrollments in various courses. It allows students to register for courses, view available courses, and drop courses they are enrolled in.</p>
+        <p>The system also provides administrative features for adding or updating course details.</p>
+        <button class="toggle-details">▼ More details</button>
+
+        <div class="details">
+          <ul>
+            <li>Admin can add/update courses</li>
+            <li>Students can enroll/drop easily</li>
+            <li>Validation for course capacity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="project">
+        <div class="project-left">
+        <h3>Gym Workout Program Web App</h3>
+        <img src="assets/images/project3-JadwalGym.png" alt="Project Three - Gym Workout Program"><br>
+        </div>
+        <div class="project-right"> 
+        <br><br><p>Users can browse different workout programs and view detailed exercise information, including muscle targets, instructions, reps, sets, and recommended weights. 
+          The application supports multiple user roles such as Guest, Trainee, Routine Designer, and Admin.</p>
+        <p>Admin users can manage all programs by adding new workouts, editing existing ones, or removing them when needed. The interface is fully responsive across desktop and mobile, offering a clean, modern, and user-friendly design. <br>
+          <a href="https://jadwal-gym-git-main-karraralqallafs-projects.vercel.app/?_vercel_share=w7N2FSFhAk7MBCAsV24U9r90jQD6XjLn">View Project</a></p>
+        <button class="toggle-details">▼ More details</button>
+
+        <div class="details">
+          <ul>
+            <li>Interactive program browsing</li>
+            <li>Search bar for workouts or categories</li>
+            <li>User roles for controlling access</li>
+            <li>Theme customization (dark/light)</li>
+            <li>Smooth navigation and responsive design</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+        <h2>My GitHub Repositories</h2>
+        <div id="github-projects" class="github-list">
+        <p>Loading GitHub repositories…</p>
+    </div>
+
+    </section>
+    
+    <section id="contact"> 
+      <h2>Contact</h2> 
+      <form> 
+        <label>Name:</label><br>
+        <input type="text" id="contact-name"><br>
+        <small class="error" id="error-name"></small><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="contact-email"><br>
+        <small class="error" id="error-email"></small><br><br>
+
+        <label>Message:</label><br>
+        <textarea id="contact-message"></textarea><br>
+        <small class="error" id="error-message"></small><br><br>
+
+        <button type="submit" id="contact-submit">Send</button>
+
+        <small id="contact-success" class="success"></small> 
+      </form> 
+    </section>
+    
+    <div class="contact-float"> 
+      <button id="contact-btn">💬</button> 
+      <div id="contact-card"> 
+        <p><strong>Email: </strong>zeyd123a@email.com</p> 
+        <p><strong>Phone:</strong> +966 53 880 0223</p> 
+      </div> 
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
