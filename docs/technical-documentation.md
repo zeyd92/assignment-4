@@ -30,7 +30,9 @@
 The website is deployed using **Vercel** for fast static hosting.  
 It automatically builds and serves the `index.html` and static assets.  
 
-Live URL: *(add your final deployment link here)*
+**Live Link:** [Open Website](https://assignment-4-gamma-swart.vercel.app)
+
+
 
 ## Future Improvements
 - Backend service for the contact form (Node.js or Firebase).
