@@ -58,7 +58,8 @@ The goal of this project is to create a polished, professional, and interactive 
 ## Live Deployment
 The website is hosted on **Vercel**:
 
-**Live Link:** *[assignment-4-gamma-swart.vercel.app]*
+**Live Link:** [Open Website](https://assignment-4-gamma-swart.vercel.app)
+
 
 ---
 
