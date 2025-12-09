@@ -1,29 +1,40 @@
 # AI Usage Report
 
 ## Tools Used
-**ChatGPT**  
-Used for debugging JavaScript, improving design, and suggesting ways to structure features like:
-- GitHub API  
-- Theme toggle  
-- Search filter  
-- Greeting system  
-- Contact form validation
+**ChatGPT & Cursor AI**  
+Used for debugging JavaScript, improving UI layout, explaining errors, and guiding implementation of features such as:
+- GitHub API integration  
+- Theme toggle (with LocalStorage)  
+- Search filter logic  
+- Greeting system improvements  
+- Contact tooltip behavior  
+- Responsive design for mobile  
+- Code cleanup and refactoring  
+- Deployment setup on Vercel  
 
 ## Benefits
-- Helped fix errors faster  
-- Gave cleaner code examples  
-- Improved styling and layout ideas
+- Faster debugging and clearer understanding of logic  
+- Cleaner and more readable code structure  
+- Better UI/UX decisions for spacing, buttons, and mobile layout  
+- Helped identify unused code and safely remove it  
+- Provided deployment instructions and fixes  
 
 ## Challenges
-- Some suggestions needed simplification  
-- API code required testing and adjustments
+- Some AI suggestions were too advanced and needed simplification  
+- Responsive design fixes required manual adjustments  
+- API handling needed testing and refinement  
+- Needed to modify generated code to match assignment structure  
 
 ## Learning Outcomes
-- Better understanding of DOM and APIs  
-- Improved JS debugging skills  
-- Learned how to use AI as support, not full replacement
+- Stronger understanding of DOM manipulation and APIs  
+- Improved debugging and refactoring skills  
+- Better knowledge of responsive design principles  
+- Learned proper deployment workflow (GitHub → Vercel)  
+- Gained experience in evaluating and modifying AI-generated code  
 
 ## Responsible Use
-- Tested every suggestion  
-- Modified code to match assignment requirements  
-- Only kept parts I fully understand
+- Tested and verified all AI suggestions manually  
+- Only kept code I fully understand and can explain  
+- Ensured the final project meets assignment rules and requirements  
+- AI was used as a helper, not a shortcut  
+
